@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1.5px currentColor;
+    color: transparent;
+  }
+  
+  .glassmorphism {
+    background-color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(19, 19, 19, 0.06);
+  }
+  
+  .glassmorphism-dark {
+    background-color: rgba(19, 19, 19, 0.85);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .mesh-gradient {
+    background-color: #fcfcfc;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(76, 91, 113, 0.04) 0px, transparent 55%),
+      radial-gradient(at 100% 0%, rgba(111, 86, 54, 0.03) 0px, transparent 55%),
+      radial-gradient(at 50% 100%, rgba(100, 116, 139, 0.03) 0px, transparent 55%);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(19, 19, 19, 0.1);
+    border-radius: 9999px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(19, 19, 19, 0.2);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+  color: #131313;
+}
+
+/* Base style resets */
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfcfc;
+  overflow-x: hidden;
+}
+
+/* Interactive Cursor Physics (on non-touch devices) */
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+  a, button, [role="button"], select, textarea, input {
+    cursor: none;
+  }
+}

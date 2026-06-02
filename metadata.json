@@ -1,0 +1,6 @@
+{
+  "name": "Creative Portfolio",
+  "description": "An elegant, interactive, and responsive portfolio for UI/UX designers and developers featuring smooth animations, a multi-step project brief builder, and portfolio details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
