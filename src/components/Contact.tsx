@@ -33,7 +33,7 @@ export default function Contact() {
     subject: formData.subject,
     message: formData.message,
   },
-  "3d7MmVjy0hxvARem5"     // 👈 paste your real Public Key
+  "CnPmZm2szGbmmzx95lmci"     // 👈 paste your real Public Key
 );
 
       setTicketNo(Math.floor(Math.random() * 900000) + 100000);
