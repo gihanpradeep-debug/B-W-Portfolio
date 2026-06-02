@@ -21,7 +21,7 @@ export default function About() {
             className="aspect-[4/5] rounded-[32px] overflow-hidden bg-[#eeeeee] relative group shadow-[0_16px_40px_rgba(0,0,0,0.03)] border border-[#131313]/5"
           >
             <motion.img
-              src="public\images\hero.jpeg"
+              src="images\hero.jpeg"
               alt="Gihan Portrait"
               className="w-full h-full object-cover transition-all duration-700 grayscale group-hover:grayscale-0 filter"
               whileHover={{ scale: 1.05 }}
