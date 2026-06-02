@@ -12,7 +12,7 @@ export const projectsData: Project[] = [
     accentColor: '#4c5b71',
     description: 'A sleek, futuristic electric supercar dashboard interface mockup. Displays minimal telemetry data with elegant curved screen highlights.',
     longDescription: 'The EventSync Dashboard represents a seamless fusion of intelligent event management and modern digital experience design. Built for efficiency, coordination, and real-time engagement, the interface streamlines event scheduling, attendee management, ticket tracking, and live analytics into a unified and intuitive platform. Designed with clarity and responsiveness in mind, it reduces operational complexity while delivering a premium, high-energy experience that reflects the fast-paced nature of modern events.',
-    image: 'public/images/dash 1.png',
+    image: 'images/dash 1.png',
     tags: ['Event', 'scheduling', 'admin dashboard',],
     challenges: 'D',
     outcomes: [
@@ -33,7 +33,7 @@ export const projectsData: Project[] = [
     accentColor: '#1a1c1c',
     description: 'A premium fitnees tracking app .',
     longDescription: 'itTrack is a modern fitness and wellness mobile application designed to help users build healthier habits through intuitive tracking, personalized insights, and seamless workout management. The app combines activity monitoring, nutrition tracking, progress analytics, and goal-based fitness planning into a clean, user-friendly experience. With a focus on motivation and simplicity, FitTrack empowers users to stay consistent, monitor achievements in real time, and maintain an active lifestyle through an engaging mobile-first interface.',
-    image: 'public/images/thumbnail.png',
+    image: 'images/thumbnail.png',
     tags: ['Fintech UX', 'Glassmorphism', 'Data Vis', 'Micro-interactions'],
     challenges: 'High-end clients find traditional banking application layouts cluttered, generic, and transactional. We had to rethink how investment positions are visualised, condensing hundreds of active variables into actionable estate-building parameters.',
     outcomes: [
@@ -54,7 +54,7 @@ export const projectsData: Project[] = [
     accentColor: '#6f5636',
     description: 'an AI intergrated fashion selector with scans and many features.',
     longDescription: 'REB is an AI-integrated fashion mobile application that transforms the way users discover and style clothing. Powered by intelligent recommendation systems, the app analyzes user preferences, fashion trends, colors, and style patterns to generate personalized outfit suggestions in real time. With a sleek and modern interface, REB delivers a seamless digital styling experience that helps users explore fashion confidently, visualize outfit combinations, and stay aligned with evolving trends through AI-driven personalization.',
-    image: 'public/images/hand-holding-phone-mockup.png',
+    image: 'images/hand-holding-phone-mockup.png',
     tags: ['Digital ', 'Editorial Grid', 'your pattern trough AI', 'clothings'],
     challenges: 'Conventional retail layouts maximize immediate density, often reducing the premium nature of haute couture products. Our challenge was translating high fashion tactile quality into mobile-first web platforms without compromising page conversion performance.',
     outcomes: [
@@ -75,7 +75,7 @@ export const projectsData: Project[] = [
     accentColor: '#071b35',
     description: 'Website for resturant with sync of POS.',
     longDescription: 'Happy Food is a modern restaurant management and food ordering platform designed to streamline the entire dining experience for both customers and restaurant staff. The system combines online food ordering, table management, real-time order tracking, and an integrated POS solution into a single intuitive interface. Built with a focus on speed, usability, and operational efficiency, Happy Food enables restaurants to manage orders seamlessly while providing customers with a smooth and engaging ordering experience across mobile and desktop devices.',
-    image: 'public/images/Happy food (2).png',
+    image: 'images/Happy food (2).png',
     tags: ['user Interface', 'POS', 'E-commerce', ],
     challenges: '.',
     outcomes: [
