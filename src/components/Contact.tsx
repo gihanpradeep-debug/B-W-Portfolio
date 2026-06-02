@@ -25,16 +25,16 @@ export default function Contact() {
 
     try {
       await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-        },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-      );
+  "service_tej2bh7",    // 👈 paste your real Service ID
+  "template_loixwor",   // 👈 paste your real Template ID
+  {
+    from_name: formData.name,
+    from_email: formData.email,
+    subject: formData.subject,
+    message: formData.message,
+  },
+  "xg979wez_32NeM2xy"     // 👈 paste your real Public Key
+);
 
       setTicketNo(Math.floor(Math.random() * 900000) + 100000);
       setSubmitted(true);
